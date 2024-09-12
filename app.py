@@ -9,7 +9,7 @@ smtp_port = 587 #specific port, most email clients use this one
 sender_email = os.getenv('email')
 sender_password = os.getenv('password')
 
-recipient_email = '3475171648@tmomail.net' #note this suffix is only for tmobile
+recipient_email = '+13475171648@tmomail.net' #note this suffix is only for tmobile
 sms_body = 'Hello, this is a test SMS via email!'
 
 msg = MIMEText(sms_body)
